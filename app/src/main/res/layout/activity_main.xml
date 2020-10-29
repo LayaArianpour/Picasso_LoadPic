@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:layout_margin="30dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/container1">
+        <Button
+            android:id="@+id/btn_image1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Image1"
+            android:textAllCaps="false"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/ic_backgrounf_button"/>
+
+        <TextView
+            android:id="@+id/txt_UrlImage1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="https://i.imgur.com/KTXh633.jpg"
+            android:textColor="#000000"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/container1"
+        android:layout_marginTop="50dp"
+        android:id="@+id/container2">
+        <Button
+            android:id="@+id/btn_image2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Image2"
+            android:textAllCaps="false"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/ic_backgrounf_button"/>
+
+        <TextView
+            android:id="@+id/txt_UrlImage2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="https://i.imgur.com/KTXh633.jpg"
+            android:textColor="#000000"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="450dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>
