@@ -47,14 +47,16 @@
             android:id="@+id/txt_UrlImage2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="https://i.imgur.com/KTXh633.jpg"
+            android:text="https://i.imgur.com/PjteAcu.jpg"
             android:textColor="#000000"/>
     </LinearLayout>
 
     <ImageView
         android:id="@+id/img"
         android:layout_width="450dp"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"/>
+        android:layout_height="350dp"
+        android:layout_marginBottom="50dp"
+        android:layout_alignParentBottom="true"
+        android:scaleType="fitXY"/>
 
 </RelativeLayout>
